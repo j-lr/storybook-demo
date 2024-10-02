@@ -6,7 +6,7 @@ import "./index.css";
 import RootComponent from "./RootComponent.tsx";
 
 createRoot(document.getElementById("root")!).render(
-    <StrictMode>
-        <RootComponent />
-    </StrictMode>
+  <StrictMode>
+    <RootComponent />
+  </StrictMode>
 );
