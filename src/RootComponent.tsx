@@ -7,39 +7,39 @@ import darkTheme from "./theme/DarkTheme.ts";
 import lightTheme from "./theme/LightTheme.ts";
 
 const RootComponent = () => {
-    const prefersDarkMode = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-    ).matches;
+  const prefersDarkMode = window.matchMedia(
+    "(prefers-color-scheme: dark)"
+  ).matches;
 
-    const [isDarkMode, setIsDarkMode] = useState(prefersDarkMode);
+  const [isDarkMode, setIsDarkMode] = useState(prefersDarkMode);
 
-    useEffect(() => {
-        const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-        const handleChange = (event: MediaQueryListEvent) => {
-            setIsDarkMode(event.matches);
-        };
-
-        mediaQuery.addEventListener("change", handleChange);
-
-        return () => {
-            mediaQuery.removeEventListener("change", handleChange);
-        };
-    }, []);
-
-    const theme = {
-        ...(isDarkMode ? darkTheme : lightTheme),
-        shape: {
-            borderRadius: 2,
-        },
-        components: {
-            MuiButton: {
-                defaultProps: {
-                    disableRipple: true,
-                    disableFocusRipple: true,
-                },
-            },
-        },
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleChange = (event: MediaQueryListEvent) => {
+      setIsDarkMode(event.matches);
     };
+
+    mediaQuery.addEventListener("change", handleChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleChange);
+    };
+  }, []);
+
+  const theme = {
+    ...(isDarkMode ? darkTheme : lightTheme),
+    shape: {
+      borderRadius: 2,
+    },
+    components: {
+      MuiButton: {
+        defaultProps: {
+          disableRipple: true,
+          disableFocusRipple: true,
+        },
+      },
+    },
+  };
 
     return (
         <ThemeProvider theme={theme}>
