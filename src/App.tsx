@@ -1,37 +1,17 @@
-import { Box } from "@mui/material";
-import LoginFormTemplate from "./stories/Components/Templates/LoginFormTemplate";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
-    const handleLoginClick = (email: string, password: string) => {
-        console.log(`email: ${email}, password: ${password}`);
-    };
+import LoginPage from "./stories/Components/Pages/LoginPage";
+import HomeTemplate from "./stories/Components/Templates/HomeTemplate";
 
-    const handleSignupClick = () => {
-        console.log("Sign up clicked");
-    };
-    return (
-        <Box
-            sx={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "1rem",
-                backgroundColor: "background.default",
-                mx: 0,
-                my: 0,
-                px: 0,
-                py: 0,
-                minWidth: "100vw",
-                minHeight: "100vh",
-            }}
-        >
-            <LoginFormTemplate
-                onLoginClick={handleLoginClick}
-                onSignUpClick={handleSignupClick}
-            />
-        </Box>
-    );
-}
+const App = () => {
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<HomeTemplate />} />
+        <Route path="/login" element={<LoginPage />} />
+      </Routes>
+    </div>
+  );
+};
 
 export default App;
