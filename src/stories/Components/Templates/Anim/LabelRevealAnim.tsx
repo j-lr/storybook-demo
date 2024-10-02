@@ -46,6 +46,8 @@ const LabelRevealAnim: React.FC<LabelRevealAnimProps> = ({
 
   useEffect(() => {
     const animLabel = (elem: HTMLElement) => {
+      gsap.killTweensOf(elem);
+      gsap.set(elem, { y: height, opacity: 0 });
       gsap.fromTo(
         elem,
         { y: height, opacity: 0.1 },
@@ -69,6 +71,7 @@ const LabelRevealAnim: React.FC<LabelRevealAnimProps> = ({
     finalOpacity,
     adjustedFontSize,
     onCompletionListener,
+    labelRef,
   ]);
 
   useEffect(() => {
