@@ -5,6 +5,7 @@ import "./index.css";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import darkTheme from "./theme/DarkTheme.ts";
 import lightTheme from "./theme/LightTheme.ts";
+import { BrowserRouter } from "react-router-dom";
 
 const RootComponent = () => {
   const prefersDarkMode = window.matchMedia(
@@ -41,11 +42,13 @@ const RootComponent = () => {
     },
   };
 
-    return (
-        <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <App />
-        </ThemeProvider>
-    );
+  return (
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <App />
+      </ThemeProvider>
+    </BrowserRouter>
+  );
 };
 export default RootComponent;
