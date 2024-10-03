@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Typography, useTheme, Box } from "@mui/material";
 import { gsap } from "gsap";
-import { reduceFontSizeToFit } from "../../../../utils/textMeasure";
+import { reduceFontSizeToFit } from "../../../../utils/textUtils";
 
 export interface LabelRevealAnimProps {
   /**
