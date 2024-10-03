@@ -63,3 +63,16 @@ export const reduceFontSizeToFit = (
 
   return currentFontSize;
 };
+
+/**
+ * Capitalizes the first letter of a given word.
+ *
+ * @param word - The word to capitalize.
+ * @returns The word with the first letter capitalized. If the input is an empty string or null, it returns the input as is.
+ * @todo Add unit tests for this function.
+ */
+export const capitalizeFirstLetter = (word: string): string => {
+  if (!word) return word;
+  if (word.length === 0) return word;
+  return word.charAt(0).toUpperCase() + word.slice(1);
+};
