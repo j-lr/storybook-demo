@@ -1,0 +1,173 @@
+{
+  "exercises": {
+    "calisthenics": {
+      "beginner": [
+        {"name": "Push-ups", "description": "A basic exercise to strengthen the chest, shoulders, and triceps.", "difficulty": "Beginner"},
+        {"name": "Bodyweight Squats", "description": "Squats performed using just your body weight.", "difficulty": "Beginner"},
+        {"name": "Knee Raises", "description": "Lifting your knees to your chest while hanging from a bar.", "difficulty": "Beginner"},
+        {"name": "Plank", "description": "A core stability exercise where you hold a position similar to a push-up.", "difficulty": "Beginner"},
+        {"name": "Jumping Jacks", "description": "A cardiovascular exercise involving jumping with arms and legs extended.", "difficulty": "Beginner"},
+        {"name": "Dips (Bench Dips)", "description": "Dips performed using a bench to target the triceps.", "difficulty": "Beginner"},
+        {"name": "Leg Raises (Lying)", "description": "Lying on your back and raising your legs to work the lower abs.", "difficulty": "Beginner"},
+        {"name": "Incline Push-ups", "description": "Push-ups with hands elevated on a bench or wall.", "difficulty": "Beginner"},
+        {"name": "Burpees", "description": "A full-body exercise involving a squat, jump, and push-up.", "difficulty": "Beginner"},
+        {"name": "Mountain Climbers", "description": "A high-intensity exercise involving a running motion in a plank position.", "difficulty": "Beginner"}
+      ],
+      "intermediate": [
+        {"name": "Diamond Push-ups", "description": "Push-ups with hands close together to target the triceps.", "difficulty": "Intermediate"},
+        {"name": "Bulgarian Split Squats", "description": "A single-leg squat with the rear leg elevated on a bench.", "difficulty": "Intermediate"},
+        {"name": "Leg Raises (Hanging)", "description": "Raising your legs while hanging from a bar to work the abs.", "difficulty": "Intermediate"},
+        {"name": "Tricep Dips (Parallel Bars)", "description": "Dips performed on parallel bars to target the triceps.", "difficulty": "Intermediate"},
+        {"name": "Pike Push-ups", "description": "A variation of push-ups with hips elevated to target the shoulders.", "difficulty": "Intermediate"},
+        {"name": "Decline Push-ups", "description": "Push-ups with feet elevated to increase difficulty.", "difficulty": "Intermediate"},
+        {"name": "Australian Pull-ups", "description": "Pull-ups performed with the body horizontal and feet on the ground.", "difficulty": "Intermediate"},
+        {"name": "L-Sit Hold", "description": "A core exercise where you hold an L-shape position using parallel bars or rings.", "difficulty": "Intermediate"},
+        {"name": "Tuck Planche", "description": "A planche variation where the knees are tucked to make the exercise easier.", "difficulty": "Intermediate"},
+        {"name": "Pistol Squats", "description": "A single-leg squat with the other leg extended forward.", "difficulty": "Intermediate"}
+      ],
+      "advanced": [
+        {"name": "Muscle-ups", "description": "A combination of a pull-up and dip in one fluid motion.", "difficulty": "Advanced"},
+        {"name": "Pistol Squats (Weighted)", "description": "A single-leg squat performed with additional weight.", "difficulty": "Advanced"},
+        {"name": "Front Lever Holds", "description": "Holding a horizontal position with your body parallel to the ground from a hanging bar.", "difficulty": "Advanced"},
+        {"name": "One-Arm Push-ups", "description": "Push-ups performed using only one arm.", "difficulty": "Advanced"},
+        {"name": "Handstand Push-ups", "description": "Push-ups performed while in a handstand position.", "difficulty": "Advanced"},
+        {"name": "Human Flag", "description": "Holding a horizontal position with the body parallel to the ground while gripping a vertical pole.", "difficulty": "Advanced"},
+        {"name": "Planche Holds", "description": "Holding a horizontal position with the body fully extended and parallel to the ground.", "difficulty": "Advanced"},
+        {"name": "Toes-to-Bar", "description": "Raising your toes to the bar while hanging to work the core.", "difficulty": "Advanced"},
+        {"name": "Back Lever Holds", "description": "Holding a horizontal position with the body parallel to the ground while hanging from a bar with the chest facing down.", "difficulty": "Advanced"},
+        {"name": "Weighted Pull-ups", "description": "Pull-ups performed with additional weight attached.", "difficulty": "Advanced"}
+      ]
+    },
+    "strength_training": {
+      "chest": [
+        {"name": "Bench Press", "description": "Lifting a barbell while lying on a bench to target the chest.", "difficulty": "Various"},
+        {"name": "Incline Bench Press", "description": "Bench press with the bench inclined to target the upper chest.", "difficulty": "Various"},
+        {"name": "Decline Bench Press", "description": "Bench press with the bench declined to target the lower chest.", "difficulty": "Various"},
+        {"name": "Dumbbell Flyes", "description": "Lying on a bench and bringing dumbbells together to target the chest.", "difficulty": "Various"},
+        {"name": "Cable Crossovers", "description": "Using cable machines to bring the handles together in front of the chest.", "difficulty": "Various"},
+        {"name": "Push-ups (Various Styles)", "description": "Different push-up variations to target various parts of the chest.", "difficulty": "Various"},
+        {"name": "Chest Dips", "description": "Dips performed with a forward lean to emphasize the chest.", "difficulty": "Various"},
+        {"name": "Pec Deck Machine", "description": "Machine exercise targeting the chest by bringing the arms together.", "difficulty": "Various"},
+        {"name": "Chest Press Machine", "description": "Machine-based bench press to target the chest.", "difficulty": "Various"},
+        {"name": "Floor Press", "description": "Bench press performed while lying on the floor to limit the range of motion.", "difficulty": "Various"}
+      ],
+      "back": [
+        {"name": "Deadlifts", "description": "Lifting a barbell from the ground to work the entire posterior chain.", "difficulty": "Various"},
+        {"name": "Pull-ups (Wide Grip, Close Grip)", "description": "Pull-ups with various grip widths to target different back muscles.", "difficulty": "Various"},
+        {"name": "Bent Over Rows", "description": "Rowing a barbell towards the torso while bent over to target the back.", "difficulty": "Various"},
+        {"name": "Lat Pulldowns", "description": "Pulling a bar down towards the chest to target the lats.", "difficulty": "Various"},
+        {"name": "T-Bar Rows", "description": "Rowing a barbell with one end fixed to the floor to target the middle back.", "difficulty": "Various"},
+        {"name": "Seated Rows", "description": "Using a rowing machine to pull a handle towards the torso.", "difficulty": "Various"},
+        {"name": "Dumbbell Rows", "description": "Rowing a dumbbell towards the torso while in a bent-over position.", "difficulty": "Various"},
+        {"name": "Hyperextensions", "description": "Extending the back while lying face down on a hyperextension bench.", "difficulty": "Various"},
+        {"name": "Renegade Rows", "description": "Rowing dumbbells while in a plank position.", "difficulty": "Various"},
+        {"name": "Face Pulls", "description": "Pulling a cable towards the face to target the rear delts and upper back.", "difficulty": "Various"}
+      ],
+      "shoulders": [
+        {"name": "Overhead Press", "description": "Pressing a barbell or dumbbells overhead to target the shoulders.", "difficulty": "Various"},
+        {"name": "Dumbbell Shoulder Press", "description": "Pressing dumbbells overhead while seated or standing.", "difficulty": "Various"},
+        {"name": "Lateral Raises", "description": "Raising dumbbells to the side to target the lateral deltoids.", "difficulty": "Various"},
+        {"name": "Front Raises", "description": "Raising dumbbells to the front to target the anterior deltoids.", "difficulty": "Various"},
+        {"name": "Rear Delt Flyes", "description": "Lifting dumbbells to the side while bent over to target the rear delts.", "difficulty": "Various"},
+        {"name": "Arnold Press", "description": "A shoulder press variation with a rotation at the top.", "difficulty": "Various"},
+        {"name": "Upright Rows", "description": "Pulling a barbell or dumbbells up to the chin to target the traps and delts.", "difficulty": "Various"},
+        {"name": "Face Pulls", "description": "Pulling a cable towards the face to target the rear delts and upper back.", "difficulty": "Various"},
+        {"name": "Shrugs", "description": "Lifting the shoulders towards the ears to target the traps.", "difficulty": "Various"},
+        {"name": "Cable Lateral Raises", "description": "Raising the arm to the side using a cable machine.", "difficulty": "Various"}
+      ],
+      "legs": [
+        {"name": "Squats (Back, Front)", "description": "Lowering the body by bending the knees while holding a barbell on the back or front.", "difficulty": "Various"},
+        {"name": "Deadlifts (Conventional, Sumo)", "description": "Lifting a barbell from the ground using different stances.", "difficulty": "Various"},
+        {"name": "Leg Press", "description": "Pressing a weighted platform away with the legs while seated.", "difficulty": "Various"},
+        {"name": "Lunges", "description": "Stepping forward and lowering the body to target the quads and glutes.", "difficulty": "Various"},
+        {"name": "Bulgarian Split Squats", "description": "A single-leg squat with the rear leg elevated.", "difficulty": "Various"},
+        {"name": "Leg Curls", "description": "Curling the legs against resistance while lying on a machine.", "difficulty": "Various"},
+        {"name": "Leg Extensions", "description": "Extending the legs against resistance while seated.", "difficulty": "Various"},
+        {"name": "Calf Raises", "description": "Raising the heels off the ground to target the calves.", "difficulty": "Various"},
+        {"name": "Step-ups", "description": "Stepping onto a platform with one leg to target the quads and glutes.", "difficulty": "Various"},
+        {"name": "Hip Thrusts", "description": "Lifting the hips towards the ceiling while resting the upper back on a bench.", "difficulty": "Various"}
+      ],
+      "arms": [
+        {"name": "Bicep Curls (Barbell, Dumbbell)", "description": "Curling a barbell or dumbbells to target the biceps.", "difficulty": "Various"},
+        {"name": "Hammer Curls", "description": "Curling dumbbells with a neutral grip to target the brachialis.", "difficulty": "Various"},
+        {"name": "Preacher Curls", "description": "Curling a barbell or dumbbells while seated at a preacher bench.", "difficulty": "Various"},
+        {"name": "Tricep Extensions", "description": "Extending the arms overhead to target the triceps.", "difficulty": "Various"},
+        {"name": "Skull Crushers", "description": "Lying on a bench and extending a barbell towards the forehead to target the triceps.", "difficulty": "Various"},
+        {"name": "Tricep Dips", "description": "Dips performed to target the triceps, can be assisted or weighted.", "difficulty": "Various"},
+        {"name": "Concentration Curls", "description": "Curling a dumbbell while seated with the elbow resting on the thigh.", "difficulty": "Various"},
+        {"name": "Cable Bicep Curls", "description": "Curling a cable towards the biceps to target the arms.", "difficulty": "Various"},
+        {"name": "Overhead Tricep Extensions", "description": "Extending the arms overhead with a dumbbell or cable to target the triceps.", "difficulty": "Various"},
+        {"name": "Kickbacks", "description": "Extending the arms behind the body with a dumbbell to target the triceps.", "difficulty": "Various"}
+      ]
+    },
+    "cardio": {
+      "low_impact": [
+        {"name": "Walking", "description": "A low-impact cardiovascular exercise performed at a steady pace.", "difficulty": "Beginner"},
+        {"name": "Cycling", "description": "Pedaling on a stationary or outdoor bike to improve cardiovascular fitness.", "difficulty": "Beginner"},
+        {"name": "Elliptical Trainer", "description": "Using an elliptical machine to perform a low-impact cardio workout.", "difficulty": "Beginner"},
+        {"name": "Rowing Machine", "description": "Using a rowing machine to perform a full-body, low-impact cardio workout.", "difficulty": "Beginner"},
+        {"name": "Swimming", "description": "Performing laps in the pool to get a full-body, low-impact cardiovascular workout.", "difficulty": "Beginner"},
+        {"name": "Aqua Aerobics", "description": "Performing aerobic exercises in water to reduce impact on the joints.", "difficulty": "Beginner"},
+        {"name": "Stepping", "description": "Using a step platform to perform a low-impact cardiovascular workout.", "difficulty": "Beginner"},
+        {"name": "Recumbent Bike", "description": "Cycling on a recumbent bike with a reclined seating position to reduce impact on the joints.", "difficulty": "Beginner"},
+        {"name": "Arm Ergometer", "description": "Using an arm bike to perform a low-impact cardio workout for the upper body.", "difficulty": "Beginner"}
+      ],
+      "high_impact": [
+        {"name": "Running (Treadmill, Outdoor)", "description": "Running at various speeds on a treadmill or outdoors to improve cardiovascular fitness.", "difficulty": "Intermediate"},
+        {"name": "Jump Rope", "description": "Jumping over a rope that is swung under the feet to improve cardiovascular fitness.", "difficulty": "Intermediate"},
+        {"name": "HIIT (High-Intensity Interval Training)", "description": "Alternating between high-intensity and low-intensity exercises for cardiovascular and metabolic conditioning.", "difficulty": "Intermediate"},
+        {"name": "Stair Climbing", "description": "Climbing stairs to improve cardiovascular fitness and build lower body strength.", "difficulty": "Intermediate"},
+        {"name": "Plyometrics", "description": "Explosive exercises like jump squats and box jumps to improve power and cardiovascular fitness.", "difficulty": "Intermediate"},
+        {"name": "Sprinting", "description": "Performing short bursts of high-speed running to improve speed and cardiovascular fitness.", "difficulty": "Intermediate"},
+        {"name": "Agility Drills", "description": "Performing exercises that improve quickness and coordination, such as ladder drills.", "difficulty": "Intermediate"},
+        {"name": "Burpees", "description": "A full-body exercise involving a squat, jump, and push-up.", "difficulty": "Intermediate"},
+        {"name": "Box Jumps", "description": "Jumping onto a box or platform to improve explosive power and cardiovascular fitness.", "difficulty": "Intermediate"},
+        {"name": "High Knees", "description": "Running in place while lifting the knees as high as possible to improve cardiovascular fitness.", "difficulty": "Intermediate"}
+      ]
+    },
+    "olympic_weightlifting": {
+      "clean_and_jerk": [
+        {"name": "Clean", "description": "Lifting a barbell from the ground to the shoulders in one motion.", "difficulty": "Advanced"},
+        {"name": "Jerk", "description": "Lifting a barbell from the shoulders to overhead in one motion.", "difficulty": "Advanced"},
+        {"name": "Power Clean", "description": "A shorter range of motion version of the clean that ends with the barbell at shoulder height.", "difficulty": "Advanced"},
+        {"name": "Hang Clean", "description": "Performing the clean from a hanging position rather than from the floor.", "difficulty": "Advanced"},
+        {"name": "Clean and Press", "description": "Combining the clean and press into a single movement.", "difficulty": "Advanced"},
+        {"name": "Clean and Squat", "description": "Performing the clean and then immediately transitioning into a squat.", "difficulty": "Advanced"}
+      ],
+      "snatch": [
+        {"name": "Snatch", "description": "Lifting a barbell from the ground to overhead in one continuous motion.", "difficulty": "Advanced"},
+        {"name": "Power Snatch", "description": "A shorter range of motion version of the snatch that ends with the barbell overhead.", "difficulty": "Advanced"},
+        {"name": "Hang Snatch", "description": "Performing the snatch from a hanging position rather than from the floor.", "difficulty": "Advanced"},
+        {"name": "Overhead Squat", "description": "Squatting while holding the barbell overhead.", "difficulty": "Advanced"}
+      ],
+      "accessories": [
+        {"name": "Deadlifts (Sumo, Conventional)", "description": "Lifting a barbell from the ground with different stances.", "difficulty": "Various"},
+        {"name": "Romanian Deadlifts", "description": "A variation of the deadlift focusing on the hamstrings and lower back.", "difficulty": "Various"},
+        {"name": "Front Squats", "description": "Squatting with the barbell held in front of the shoulders.", "difficulty": "Various"},
+        {"name": "Back Squats", "description": "Squatting with the barbell resting on the upper back.", "difficulty": "Various"},
+        {"name": "Push Press", "description": "Pressing a barbell overhead using a slight leg drive.", "difficulty": "Various"},
+        {"name": "Thrusters", "description": "A combination of a front squat and overhead press.", "difficulty": "Various"}
+      ]
+    },
+    "powerlifting": {
+      "squat_variations": [
+        {"name": "Back Squat", "description": "Squatting with the barbell resting on the upper back.", "difficulty": "Various"},
+        {"name": "Front Squat", "description": "Squatting with the barbell held in front of the shoulders.", "difficulty": "Various"},
+        {"name": "Box Squat", "description": "Squatting onto a box to help with depth and technique.", "difficulty": "Various"},
+        {"name": "Paused Squat", "description": "Squatting with a pause at the bottom of the movement.", "difficulty": "Various"}
+      ],
+      "bench_press_variations": [
+        {"name": "Flat Bench Press", "description": "Lifting a barbell while lying on a flat bench.", "difficulty": "Various"},
+        {"name": "Incline Bench Press", "description": "Bench press with the bench inclined to target the upper chest.", "difficulty": "Various"},
+        {"name": "Decline Bench Press", "description": "Bench press with the bench declined to target the lower chest.", "difficulty": "Various"},
+        {"name": "Close-Grip Bench Press", "description": "Bench press with hands placed closer together to emphasize the triceps.", "difficulty": "Various"}
+      ],
+      "deadlift_variations": [
+        {"name": "Conventional Deadlift", "description": "Lifting a barbell from the ground with a standard stance.", "difficulty": "Various"},
+        {"name": "Sumo Deadlift", "description": "Lifting a barbell from the ground with a wide stance.", "difficulty": "Various"},
+        {"name": "Romanian Deadlift", "description": "Lifting a barbell with a focus on the hamstrings and lower back.", "difficulty": "Various"},
+        {"name": "Deficit Deadlift", "description": "Performing the deadlift from an elevated position to increase range of motion.", "difficulty": "Various"}
+      ]
+    }
+  }
+}
