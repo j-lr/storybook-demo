@@ -108,7 +108,6 @@ const LabelRevealAnim: React.FC<LabelRevealAnimProps> = ({
       <Box
         ref={containerRef}
         sx={{
-          // position: "relative",
           overflow: "hidden",
           display: "inline-block",
           width: "100vw",
@@ -118,19 +117,11 @@ const LabelRevealAnim: React.FC<LabelRevealAnimProps> = ({
         <Typography
           ref={labelRef}
           variant="h1"
-          // align="center"
           sx={{
             fontSize: adjustedFontSize,
             color: theme.palette.secondary.main,
-            // position: "absolute",
-            // top: 0,
-            // left: 0,
-            // right: 0,
-            // transform: "translateY(100%)",
             opacity: 0,
-            whiteSpace: "nowrap", // Ensure text does not wrap
-            // overflow: "hidden", // Hide overflow text
-            // textOverflow: "ellipsis", // Add ellipsis for overflow text
+            whiteSpace: "nowrap",
           }}
         >
           {label}
