@@ -52,6 +52,7 @@ const AccordionCards = (props: {
       onChange={handleAccordionChange}
       defaultExpanded={expandedByDefault}
       sx={{ borderRadius: 4, px: 1, py: 2 }}
+      elevation={0}
     >
       <AccordionSummary
         id="panel-header"
@@ -103,7 +104,7 @@ const ModuleFilters = (props: {
               width: "fit-content",
               height: "48px",
               borderRadius: 99999,
-              border: 0.3,
+              border: 0.8,
               borderColor: theme.palette.secondary.light,
               px: selectedModuleLabel === module.label ? 6 : 4,
               opacity: selectedModuleLabel === module.label ? 1 : 1,
@@ -131,6 +132,7 @@ const ModuleFilters = (props: {
 };
 
 const Module: React.FC<{ module: Exercise[] }> = (props) => {
+  const theme = useTheme();
   const { module } = props;
   return (
     <Grid
@@ -142,7 +144,7 @@ const Module: React.FC<{ module: Exercise[] }> = (props) => {
       {module.map((exercise, index) => (
         <Grid key={index} size={{ xs: 2, sm: 4, md: 4 }}>
           <Card
-            elevation={0}
+            elevation={theme.palette.mode === "light" ? 4 : 0}
             sx={{
               borderRadius: 8,
               px: 2,
