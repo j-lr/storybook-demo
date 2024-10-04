@@ -112,14 +112,15 @@ const Module: React.FC<{ module: Exercise[] }> = (props) => {
       container
       spacing={{ xs: 2, md: 3 }}
       columns={{ xs: 4, sm: 8, md: 12 }}
+      px={2.5}
       pb={4}
     >
       {module.map((exercise, index) => (
         <Grid key={index} size={{ xs: 2, sm: 4, md: 4 }}>
           <Card
-            elevation={theme.palette.mode === "light" ? 4 : 0}
+            elevation={theme.palette.mode === "light" ? 4 : 16}
             sx={{
-              borderRadius: 8,
+              borderRadius: 2,
               px: 2,
             }}
           >
