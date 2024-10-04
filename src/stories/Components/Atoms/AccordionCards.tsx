@@ -110,13 +110,14 @@ const Module: React.FC<{ module: Exercise[] }> = (props) => {
   return (
     <Grid
       container
-      spacing={{ xs: 2, md: 3 }}
-      columns={{ xs: 4, sm: 8, md: 12 }}
+      rowSpacing={2}
+      columnSpacing={1.5}
+      marginY={2}
       px={2.5}
       pb={4}
     >
       {module.map((exercise, index) => (
-        <Grid key={index} size={{ xs: 2, sm: 4, md: 4 }}>
+        <Grid key={index} size={{ xs: 12, sm: 6, md: 4 }}>
           <Card
             elevation={theme.palette.mode === "light" ? 4 : 16}
             sx={{
