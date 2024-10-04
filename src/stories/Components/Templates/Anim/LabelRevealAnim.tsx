@@ -50,7 +50,7 @@ const LabelRevealAnim: React.FC<LabelRevealAnimProps> = ({
       gsap.set(elem, { y: height, opacity: 0 });
       gsap.fromTo(
         elem,
-        { y: height, opacity: 0.1 },
+        { y: height, opacity: 0 },
         {
           y: 0,
           opacity: finalOpacity,
