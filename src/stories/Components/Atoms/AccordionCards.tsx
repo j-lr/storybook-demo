@@ -2,7 +2,6 @@ import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
-  Button,
   Card,
   CardContent,
   Typography,
@@ -19,6 +18,7 @@ import {
 } from "../../../types/exerciseTypes";
 
 import { useState } from "react";
+import LabelFilter from "./LabelFilter";
 
 const AccordionCards = (props: {
   expandedByDefault?: boolean;
@@ -87,44 +87,17 @@ const ModuleFilters = (props: {
   selectedModuleLabel: string;
   selectedModuleChangeListener: (label: string) => void;
 }) => {
-  const theme = useTheme();
   const { data, selectedModuleLabel, selectedModuleChangeListener } = props;
 
   return (
     <Grid container spacing={0} rowSpacing={2} columnSpacing={1.5} marginY={2}>
       {data.map((module, index) => (
         <Grid key={index} size="auto">
-          <Button
-            variant={
-              selectedModuleLabel === module.label ? "contained" : "outlined"
-            }
-            color={"secondary"}
-            onClick={() => selectedModuleChangeListener(module.label)}
-            sx={{
-              width: "fit-content",
-              height: "48px",
-              borderRadius: 99999,
-              border: 0.8,
-              borderColor: theme.palette.secondary.light,
-              px: selectedModuleLabel === module.label ? 6 : 4,
-              opacity: selectedModuleLabel === module.label ? 1 : 1,
-              transition: `border-color ${theme.transitions.duration.standard}ms`,
-              "&:hover": {
-                borderColor: theme.palette.secondary.dark,
-              },
-            }}
-          >
-            <Typography
-              variant="body2"
-              sx={{
-                fontSize: "13px",
-                fontWeight: "bold",
-                textTransform: "none",
-              }}
-            >
-              {module.label}
-            </Typography>
-          </Button>
+          <LabelFilter
+            label={module.label}
+            isSelected={selectedModuleLabel === module.label}
+            clickListener={selectedModuleChangeListener}
+          />
         </Grid>
       ))}
     </Grid>
